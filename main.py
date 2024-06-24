@@ -43,5 +43,6 @@ try:
     print(f"[+] MD5 Hash of the file '{file_path}' is: {md5_digest}")
     print(comp_hashes)
 
+
 except FileNotFoundError as e:
     print(e)
